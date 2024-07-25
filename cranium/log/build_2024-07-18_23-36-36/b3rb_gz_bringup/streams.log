@@ -1,0 +1,49 @@
+[0.024s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_gz_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.248s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.354s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.472s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.476s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.672s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.755s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.789s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.900s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.902s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.903s] -- Added test 'lint_cmake' to check CMake code style
+[0.903s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.905s] -- Added test 'xmllint' to check XML markup files
+[0.907s] -- Configuring done
+[0.911s] -- Generating done
+[0.912s] -- Build files have been written to: /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup
+[0.920s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_gz_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup
+[0.922s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup -- -j12 -l12
+[0.972s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup -- -j12 -l12
+[1.010s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup
+[1.024s] -- Install configuration: ""
+[1.024s] -- Execute custom install script
+[1.024s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/launch/hil.launch.py
+[1.033s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/launch/sil.launch.py
+[1.043s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/ament_index/resource_index/package_run_dependencies/b3rb_gz_bringup
+[1.055s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/ament_index/resource_index/parent_prefix_path/b3rb_gz_bringup
+[1.066s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/environment/ament_prefix_path.sh
+[1.079s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/environment/ament_prefix_path.dsv
+[1.090s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/environment/path.sh
+[1.101s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/environment/path.dsv
+[1.110s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/local_setup.bash
+[1.121s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/local_setup.sh
+[1.133s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/local_setup.zsh
+[1.142s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/local_setup.dsv
+[1.154s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.dsv
+[1.166s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/ament_index/resource_index/packages/b3rb_gz_bringup
+[1.177s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/cmake/b3rb_gz_bringupConfig.cmake
+[1.188s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/cmake/b3rb_gz_bringupConfig-version.cmake
+[1.198s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.xml
+[1.212s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup

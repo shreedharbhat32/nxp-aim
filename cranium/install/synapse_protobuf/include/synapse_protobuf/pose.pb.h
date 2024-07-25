@@ -1,0 +1,1 @@
+/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/pose.pb.h

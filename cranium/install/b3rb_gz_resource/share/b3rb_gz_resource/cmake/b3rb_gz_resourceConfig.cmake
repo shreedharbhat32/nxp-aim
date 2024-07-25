@@ -1,0 +1,1 @@
+/home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource/ament_cmake_core/b3rb_gz_resourceConfig.cmake

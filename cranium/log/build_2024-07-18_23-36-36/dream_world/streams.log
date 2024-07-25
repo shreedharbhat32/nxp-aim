@@ -1,0 +1,117 @@
+[0.021s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/dream_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/dream_world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/dream_world
+[0.137s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.244s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.346s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.454s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.468s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.683s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.767s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.804s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.927s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'xmllint' to check XML markup files
+[0.941s] -- Configuring done
+[0.944s] -- Generating done
+[0.945s] -- Build files have been written to: /home/shreedhar/cognipilot/cranium/build/dream_world
+[0.952s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/dream_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/dream_world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/dream_world
+[0.954s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/dream_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/dream_world -- -j12 -l12
+[1.002s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/dream_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/dream_world -- -j12 -l12
+[1.028s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/dream_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/dream_world
+[1.038s] -- Install configuration: ""
+[1.039s] -- Execute custom install script
+[1.040s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/scripts/model.material
+[1.051s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Albedo.png
+[1.065s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Emissive.png
+[1.076s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Metalness.png
+[1.087s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Normal.png
+[1.095s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Roughness.png
+[1.108s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_BaseColor.png
+[1.118s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_Normal.png
+[1.129s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_Roughness.png
+[1.140s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/DepotLightmap.png
+[1.152s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Albedo.png
+[1.163s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Metalness.png
+[1.173s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Normal.png
+[1.184s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Roughness.png
+[1.195s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Albedo.png
+[1.235s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Metalness.png
+[1.235s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Normal.png
+[1.259s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Roughness.png
+[1.259s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FanBack_FanBack_BaseColor.png
+[1.260s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Albedo.png
+[1.272s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Metalness.png
+[1.291s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Normal.png
+[1.299s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Roughness.png
+[1.333s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Albedo.png
+[1.342s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Metalness.png
+[1.343s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Normal.png
+[1.355s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Roughness.png
+[1.367s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_BaseColor.png
+[1.388s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Metallic.png
+[1.389s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Normal.png
+[1.400s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Roughness.png
+[1.418s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Albedo.png
+[1.432s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Emissive.png
+[1.452s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Metalness.png
+[1.467s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Normal.png
+[1.490s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Roughness.png
+[1.502s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Albedo.png
+[1.520s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Metalness.png
+[1.538s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Normal.png
+[1.552s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Roughness.png
+[1.565s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Albedo.png
+[1.596s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Metalness.png
+[1.624s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Normal.png
+[1.678s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Roughness.png
+[1.713s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Albedo.png
+[1.744s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Emissive.png
+[1.771s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Metalness.png
+[1.796s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Normal.png
+[1.825s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Roughness.png
+[1.847s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Albedo.png
+[1.877s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Metalness.png
+[1.895s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Normal.png
+[1.910s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Roughness.png
+[1.924s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Albedo.png
+[1.961s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Metalness.png
+[2.018s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Normal.png
+[2.039s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Roughness.png
+[2.069s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_BaseColor.png
+[2.090s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_Metallic.png
+[2.107s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_Roughness.png
+[2.156s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/meshes/Crates.dae
+[2.205s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/meshes/Depot.dae
+[2.221s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/model.config
+[2.237s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/model.sdf
+[2.253s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/thumbnails/0.png
+[2.268s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/thumbnails/1.png
+[2.284s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/thumbnails/2.png
+[2.300s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/thumbnails/3.png
+[2.318s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/thumbnails/4.png
+[2.328s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/models/Depot/thumbnails/5.png
+[2.344s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/worlds/basic_map.sdf
+[2.358s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/worlds/depot.sdf
+[2.403s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/environment/dream_world.dsv
+[2.443s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/ament_index/resource_index/package_run_dependencies/dream_world
+[2.476s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/ament_index/resource_index/parent_prefix_path/dream_world
+[2.518s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/environment/ament_prefix_path.sh
+[2.557s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/environment/ament_prefix_path.dsv
+[2.599s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/environment/path.sh
+[2.632s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/environment/path.dsv
+[2.671s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/local_setup.bash
+[2.721s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/local_setup.sh
+[2.766s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/local_setup.zsh
+[2.793s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/local_setup.dsv
+[2.822s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.dsv
+[2.840s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/ament_index/resource_index/packages/dream_world
+[2.857s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/cmake/dream_worldConfig.cmake
+[2.873s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/cmake/dream_worldConfig-version.cmake
+[2.890s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.xml
+[2.934s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/dream_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/dream_world

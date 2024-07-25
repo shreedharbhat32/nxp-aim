@@ -1,0 +1,138 @@
+[0.026s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/synapse_protobuf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/synapse_protobuf
+[0.147s] -- The C compiler identification is GNU 11.4.0
+[0.254s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.363s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.364s] -- Detecting C compile features
+[0.364s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.473s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.476s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.682s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.754s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.001s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.004s] -- proto_src: /home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/actuators.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/altimeter.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/battery_state.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/bezier_curve.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/bezier_trajectory.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/can.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/header.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/imu.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/joy.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/led.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/led_array.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/magnetic_field.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/nav_sat_fix.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/nav_sat_status.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/odometry.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/point.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/pose.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/pose_with_covariance.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/quaternion.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/safety.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/sim_clock.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/status.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/time.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/twist.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/twist_with_covariance.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/vector3.pb.cc;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/wheel_odometry.pb.cc
+[1.004s] -- proto_hdrs: /home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/actuators.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/altimeter.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/battery_state.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/bezier_curve.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/bezier_trajectory.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/can.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/header.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/imu.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/joy.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/led.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/led_array.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/magnetic_field.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/nav_sat_fix.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/nav_sat_status.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/odometry.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/point.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/pose.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/pose_with_covariance.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/quaternion.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/safety.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/sim_clock.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/status.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/time.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/twist.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/twist_with_covariance.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/vector3.pb.h;/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/wheel_odometry.pb.h
+[1.020s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.118s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.133s] -- Added test 'lint_cmake' to check CMake code style
+[1.141s] -- Added test 'xmllint' to check XML markup files
+[1.145s] -- Configuring done
+[1.161s] -- Generating done
+[1.163s] -- Build files have been written to: /home/shreedhar/cognipilot/cranium/build/synapse_protobuf
+[1.178s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/synapse_protobuf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/synapse_protobuf
+[1.179s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_protobuf -- -j12 -l12
+[1.253s] [  3%] Running cpp protocol buffer compiler on bezier_curve.proto
+[1.254s] [  3%] Running cpp protocol buffer compiler on wheel_odometry.proto
+[1.254s] [  5%] Running cpp protocol buffer compiler on actuators.proto
+[1.254s] [  7%] Running cpp protocol buffer compiler on altimeter.proto
+[1.254s] [  9%] Running cpp protocol buffer compiler on battery_state.proto
+[1.254s] [ 10%] Running cpp protocol buffer compiler on header.proto
+[1.254s] [ 14%] Running cpp protocol buffer compiler on bezier_trajectory.proto
+[1.254s] [ 14%] Running cpp protocol buffer compiler on can.proto
+[1.254s] [ 16%] Running cpp protocol buffer compiler on imu.proto
+[1.278s] [ 18%] Running cpp protocol buffer compiler on joy.proto
+[1.278s] [ 20%] Running cpp protocol buffer compiler on magnetic_field.proto
+[1.278s] [ 23%] Running cpp protocol buffer compiler on led_array.proto
+[1.278s] [ 23%] Running cpp protocol buffer compiler on led.proto
+[1.278s] [ 25%] Running cpp protocol buffer compiler on nav_sat_fix.proto
+[1.278s] [ 27%] Running cpp protocol buffer compiler on pose.proto
+[1.278s] [ 29%] Running cpp protocol buffer compiler on odometry.proto
+[1.278s] [ 30%] Running cpp protocol buffer compiler on point.proto
+[1.278s] [ 32%] Running cpp protocol buffer compiler on nav_sat_status.proto
+[1.288s] [ 34%] Running cpp protocol buffer compiler on pose_with_covariance.proto
+[1.294s] [ 36%] Running cpp protocol buffer compiler on safety.proto
+[1.295s] [ 38%] Running cpp protocol buffer compiler on quaternion.proto
+[1.298s] [ 40%] Running cpp protocol buffer compiler on status.proto
+[1.298s] [ 41%] Running cpp protocol buffer compiler on sim_clock.proto
+[1.299s] [ 43%] Running cpp protocol buffer compiler on time.proto
+[1.317s] [ 45%] Running cpp protocol buffer compiler on twist.proto
+[1.317s] [ 47%] Running cpp protocol buffer compiler on twist_with_covariance.proto
+[1.317s] [ 49%] Running cpp protocol buffer compiler on vector3.proto
+[1.407s] [ 54%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/bezier_curve.pb.cc.o
+[1.407s] [ 58%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/bezier_trajectory.pb.cc.o
+[1.407s] [ 54%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/altimeter.pb.cc.o
+[1.407s] [ 60%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/battery_state.pb.cc.o
+[1.407s] [ 60%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/actuators.pb.cc.o
+[1.407s] [ 60%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/can.pb.cc.o
+[1.407s] [ 61%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/header.pb.cc.o
+[1.407s] [ 63%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/imu.pb.cc.o
+[1.407s] [ 67%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/magnetic_field.pb.cc.o
+[1.418s] [ 69%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/led_array.pb.cc.o
+[1.418s] [ 67%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/joy.pb.cc.o
+[1.418s] [ 70%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/led.pb.cc.o
+[2.996s] [ 72%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/nav_sat_fix.pb.cc.o
+[3.012s] [ 74%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/nav_sat_status.pb.cc.o
+[3.038s] [ 76%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/point.pb.cc.o
+[3.040s] [ 78%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/odometry.pb.cc.o
+[3.044s] [ 80%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/pose.pb.cc.o
+[3.055s] [ 81%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/pose_with_covariance.pb.cc.o
+[3.066s] [ 83%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/quaternion.pb.cc.o
+[3.119s] [ 85%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/safety.pb.cc.o
+[3.119s] [ 87%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/sim_clock.pb.cc.o
+[3.169s] [ 89%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/status.pb.cc.o
+[3.190s] [ 90%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/time.pb.cc.o
+[3.206s] [ 92%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/twist.pb.cc.o
+[4.434s] [ 94%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/twist_with_covariance.pb.cc.o
+[4.455s] [ 96%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/vector3.pb.cc.o
+[4.477s] [ 98%] Building CXX object proto/CMakeFiles/synapse_protobuf.dir/wheel_odometry.pb.cc.o
+[5.724s] [100%] Linking CXX static library libsynapse_protobuf.a
+[5.862s] [100%] Built target synapse_protobuf
+[5.878s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_protobuf -- -j12 -l12
+[5.904s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_protobuf
+[5.914s] -- Install configuration: ""
+[5.914s] -- Execute custom install script
+[5.914s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/actuators.pb.h
+[5.924s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/altimeter.pb.h
+[5.933s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/battery_state.pb.h
+[5.942s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/bezier_curve.pb.h
+[5.951s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/bezier_trajectory.pb.h
+[5.961s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/can.pb.h
+[5.970s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/header.pb.h
+[5.979s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/imu.pb.h
+[5.987s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/joy.pb.h
+[5.996s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/led.pb.h
+[6.006s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/led_array.pb.h
+[6.016s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/magnetic_field.pb.h
+[6.026s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/nav_sat_fix.pb.h
+[6.035s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/nav_sat_status.pb.h
+[6.044s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/odometry.pb.h
+[6.051s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/point.pb.h
+[6.060s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/pose.pb.h
+[6.067s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/pose_with_covariance.pb.h
+[6.075s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/quaternion.pb.h
+[6.083s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/safety.pb.h
+[6.092s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/sim_clock.pb.h
+[6.101s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/status.pb.h
+[6.109s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/time.pb.h
+[6.118s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/twist.pb.h
+[6.126s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/twist_with_covariance.pb.h
+[6.133s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/vector3.pb.h
+[6.140s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/include/synapse_protobuf/wheel_odometry.pb.h
+[6.148s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/environment/library_path.sh
+[6.156s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/environment/library_path.dsv
+[6.164s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/ament_index/resource_index/package_run_dependencies/synapse_protobuf
+[6.172s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/ament_index/resource_index/parent_prefix_path/synapse_protobuf
+[6.180s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/environment/ament_prefix_path.sh
+[6.187s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/environment/ament_prefix_path.dsv
+[6.195s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/environment/path.sh
+[6.203s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/environment/path.dsv
+[6.211s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/local_setup.bash
+[6.219s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/local_setup.sh
+[6.226s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/local_setup.zsh
+[6.233s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/local_setup.dsv
+[6.241s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.dsv
+[6.248s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/ament_index/resource_index/packages/synapse_protobuf
+[6.256s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/cmake/ament_cmake_export_targets-extras.cmake
+[6.264s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.271s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/cmake/synapse_protobufConfig.cmake
+[6.279s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/cmake/synapse_protobufConfig-version.cmake
+[6.286s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.xml
+[6.293s] -- Installing: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/cmake/synapse_protobufExport.cmake
+[6.294s] -- Installing: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/cmake/synapse_protobufExport-noconfig.cmake
+[6.294s] -- Installing: /home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib/libsynapse_protobuf.a
+[6.300s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_protobuf

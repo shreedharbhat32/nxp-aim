@@ -1,0 +1,75 @@
+[0.015s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/synapse_gz -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/synapse_gz
+[0.027s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.168s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.170s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.177s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.252s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.254s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.282s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.405s] -- Found synapse_protobuf: 0.0.0 (/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/cmake)
+[0.413s] -- Found synapse_tinyframe: 0.0.0 (/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/cmake)
+[0.414s] -- Looking for gz-transport13 -- found version 13.4.0
+[0.422s] -- Searching for dependencies of gz-transport13
+[0.456s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.461s] -- Checking for module 'libzmq >= 4'
+[0.478s] --   Found libzmq , version 4.3.4
+[0.517s] -- Checking for module 'uuid'
+[0.530s] --   Found uuid, version 2.37.2
+[0.563s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.563s] -- Searching for dependencies of gz-utils2
+[0.564s] -- Searching for <gz-utils2> component [cli]
+[0.565s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[0.565s] -- Searching for dependencies of gz-utils2-cli
+[0.566s] -- Looking for gz-msgs10 -- found version 10.3.0
+[0.566s] -- Searching for dependencies of gz-msgs10
+[0.587s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.588s] -- Looking for gz-math7 -- found version 7.5.0
+[0.588s] -- Searching for dependencies of gz-math7
+[0.588s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.595s] -- Checking for module 'tinyxml2'
+[0.608s] --   Found tinyxml2, version 9.0.0
+[0.702s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.758s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.764s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.764s] -- Configured cppcheck include dirs: /home/shreedhar/cognipilot/cranium/src/synapse_gz/src/clients
+[0.764s] -- Configured cppcheck exclude dirs and/or files: 
+[0.768s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.768s] -- Configured cpplint exclude dirs and/or files: 
+[0.768s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.769s] -- Added test 'lint_cmake' to check CMake code style
+[0.770s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.773s] -- Added test 'uncrustify' to check C / C++ code style
+[0.773s] -- Configured uncrustify additional arguments: 
+[0.774s] -- Added test 'xmllint' to check XML markup files
+[0.775s] -- Configuring done
+[0.788s] -- Generating done
+[0.789s] -- Build files have been written to: /home/shreedhar/cognipilot/cranium/build/synapse_gz
+[0.796s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/synapse_gz -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/synapse_gz
+[0.797s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_gz -- -j12 -l12
+[0.860s] Consolidate compiler generated dependencies of target synapse_gz
+[0.913s] [100%] Built target synapse_gz
+[0.923s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_gz -- -j12 -l12
+[0.952s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_gz
+[0.960s] -- Install configuration: ""
+[0.960s] -- Execute custom install script
+[0.961s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/lib/synapse_gz/synapse_gz
+[0.961s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/launch/synapse_gz.launch.py
+[0.961s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/ament_index/resource_index/package_run_dependencies/synapse_gz
+[0.962s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/ament_index/resource_index/parent_prefix_path/synapse_gz
+[0.962s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/environment/ament_prefix_path.sh
+[0.962s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/environment/ament_prefix_path.dsv
+[0.962s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/environment/path.sh
+[0.962s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/environment/path.dsv
+[0.963s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/local_setup.bash
+[0.963s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/local_setup.sh
+[0.963s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/local_setup.zsh
+[0.963s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/local_setup.dsv
+[0.963s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.dsv
+[0.972s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/ament_index/resource_index/packages/synapse_gz
+[0.972s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/cmake/synapse_gzConfig.cmake
+[0.973s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/cmake/synapse_gzConfig-version.cmake
+[0.973s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.xml
+[0.975s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_gz

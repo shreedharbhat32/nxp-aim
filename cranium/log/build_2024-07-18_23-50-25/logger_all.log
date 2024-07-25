@@ -1,0 +1,1120 @@
+[0.155s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.155s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7dbeb7038b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dbeb7038640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dbeb7038640>>)
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.335s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shreedhar/cognipilot/cranium'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_description) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/b3rb/b3rb_description' with type 'ros.ament_cmake' and name 'b3rb_description'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb/b3rb_nav2) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/b3rb/b3rb_nav2' with type 'ros.ament_cmake' and name 'b3rb_nav2'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_desktop) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/b3rb_desktop/b3rb_desktop' with type 'ros.ament_cmake' and name 'b3rb_desktop'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_desktop/b3rb_rviz) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/b3rb_desktop/b3rb_rviz' with type 'ros.ament_cmake' and name 'b3rb_rviz'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_bringup) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/b3rb_simulator/b3rb_gz_bringup' with type 'ros.ament_cmake' and name 'b3rb_gz_bringup'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_gz_resource) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/b3rb_simulator/b3rb_gz_resource' with type 'ros.ament_cmake' and name 'b3rb_gz_resource'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/b3rb_simulator/b3rb_simulator) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/b3rb_simulator/b3rb_simulator' with type 'ros.ament_cmake' and name 'b3rb_simulator'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/cerebri_bringup) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cerebri_bringup' with type 'ros.ament_cmake' and name 'cerebri_bringup'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/corti) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/corti' with type 'ros.ament_cmake' and name 'corti'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/dream_world) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dream_world' with type 'ros.ament_cmake' and name 'dream_world'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nxp_cup_vision) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nxp_cup_vision' with type 'ros.ament_python' and name 'nxp_cup_vision'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_gz) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/synapse_gz' with type 'ros.ament_cmake' and name 'synapse_gz'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_msgs) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/synapse_msgs' with type 'ros.ament_cmake' and name 'synapse_msgs'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_protobuf) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/synapse_protobuf' with type 'ros.ament_cmake' and name 'synapse_protobuf'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_ros) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/synapse_ros' with type 'ros.ament_cmake' and name 'synapse_ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/synapse_tinyframe) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/synapse_tinyframe' with type 'ros.ament_cmake' and name 'synapse_tinyframe'
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'b3rb_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/b3rb_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/b3rb_description', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/b3rb/b3rb_description', 'symlink_install': True, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'b3rb_gz_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_gz_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_gz_resource' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'b3rb_gz_resource' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_gz_resource', 'symlink_install': True, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'b3rb_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'b3rb_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/b3rb_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/b3rb/b3rb_nav2', 'symlink_install': True, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'b3rb_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'b3rb_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/b3rb_desktop/b3rb_rviz', 'symlink_install': True, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cerebri_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'cerebri_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/cerebri_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/cerebri_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'dream_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'dream_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/dream_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/dream_world', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/dream_world', 'symlink_install': True, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'synapse_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/synapse_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/synapse_msgs', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/synapse_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'synapse_protobuf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'synapse_protobuf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/synapse_protobuf', 'symlink_install': True, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'synapse_tinyframe' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'synapse_tinyframe' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/synapse_tinyframe', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe', 'symlink_install': True, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_desktop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'b3rb_desktop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/b3rb_desktop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/b3rb_desktop/b3rb_desktop', 'symlink_install': True, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'b3rb_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'b3rb_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/b3rb_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_simulator', 'symlink_install': True, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'corti' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'corti' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/corti', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/corti', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/corti', 'symlink_install': True, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'nxp_cup_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'nxp_cup_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/nxp_cup_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/nxp_cup_vision', 'symlink_install': True, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'synapse_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/synapse_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/synapse_gz', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/synapse_gz', 'symlink_install': True, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'synapse_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'synapse_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shreedhar/cognipilot/cranium/build/synapse_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shreedhar/cognipilot/cranium/install/synapse_ros', 'merge_install': False, 'path': '/home/shreedhar/cognipilot/cranium/src/synapse_ros', 'symlink_install': True, 'test_result_base': None}
+[0.389s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.390s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/synapse_msgs' with build type 'ament_cmake'
+[0.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/synapse_msgs'
+[0.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/synapse_protobuf' with build type 'ament_cmake'
+[0.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/synapse_protobuf'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_gz_bringup' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_gz_bringup'
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_gz_resource' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_gz_resource'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/b3rb_desktop/b3rb_rviz' with build type 'ament_cmake'
+[0.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/b3rb_desktop/b3rb_rviz'
+[0.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.425s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/b3rb/b3rb_description' with build type 'ament_cmake'
+[0.425s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/b3rb/b3rb_description'
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.429s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/b3rb/b3rb_nav2' with build type 'ament_cmake'
+[0.429s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/b3rb/b3rb_nav2'
+[0.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.433s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/cerebri_bringup' with build type 'ament_cmake'
+[0.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/cerebri_bringup'
+[0.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/dream_world' with build type 'ament_cmake'
+[0.436s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/dream_world'
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_msgs -- -j12 -l12
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_protobuf -- -j12 -l12
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_tinyframe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_tinyframe -- -j12 -l12
+[0.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup -- -j12 -l12
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource -- -j12 -l12
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_rviz -- -j12 -l12
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_description -- -j12 -l12
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_nav2 -- -j12 -l12
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/cerebri_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/cerebri_bringup -- -j12 -l12
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/dream_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/dream_world -- -j12 -l12
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_rviz -- -j12 -l12
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup -- -j12 -l12
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_nav2 -- -j12 -l12
+[0.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_description -- -j12 -l12
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource -- -j12 -l12
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_nav2
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_tinyframe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_tinyframe -- -j12 -l12
+[0.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/cerebri_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/cerebri_bringup -- -j12 -l12
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/dream_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/dream_world -- -j12 -l12
+[0.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_rviz
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_description
+[0.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_nav2)
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/cerebri_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/cerebri_bringup
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/dream_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/dream_world
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_nav2
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2' for CMake module files
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2' for CMake config files
+[0.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_nav2', 'cmake_prefix_path')
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/hook/cmake_prefix_path.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/hook/cmake_prefix_path.dsv'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/hook/cmake_prefix_path.sh'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/bin'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/lib/pkgconfig/b3rb_nav2.pc'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/lib/python3.10/site-packages'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/bin'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.sh'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.bash'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.zsh'
+[0.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/colcon-core/packages/b3rb_nav2)
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_tinyframe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_tinyframe
+[0.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_gz_bringup)
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup' for CMake module files
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup' for CMake config files
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_gz_bringup', 'cmake_prefix_path')
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/hook/cmake_prefix_path.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/hook/cmake_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/hook/cmake_prefix_path.sh'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/lib/pkgconfig/b3rb_gz_bringup.pc'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/lib/python3.10/site-packages'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/bin'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.dsv'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.sh'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.bash'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.zsh'
+[0.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/colcon-core/packages/b3rb_gz_bringup)
+[0.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_rviz)
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz' for CMake module files
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_gz_bringup
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz' for CMake config files
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_rviz
+[0.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_rviz', 'cmake_prefix_path')
+[0.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/hook/cmake_prefix_path.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/hook/cmake_prefix_path.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/hook/cmake_prefix_path.sh'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/bin'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/lib/pkgconfig/b3rb_rviz.pc'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/lib/python3.10/site-packages'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/bin'
+[0.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.sh'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.bash'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.zsh'
+[0.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/colcon-core/packages/b3rb_rviz)
+[0.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_description)
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description' for CMake module files
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_description
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description' for CMake config files
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_description', 'cmake_prefix_path')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/hook/cmake_prefix_path.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/hook/cmake_prefix_path.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/hook/cmake_prefix_path.sh'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description/bin'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description/lib/pkgconfig/b3rb_description.pc'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description/lib/python3.10/site-packages'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description/bin'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.sh'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.bash'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.zsh'
+[0.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/colcon-core/packages/b3rb_description)
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_gz_resource)
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource' for CMake module files
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_gz_resource
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource' for CMake config files
+[0.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_gz_resource', 'cmake_prefix_path')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/hook/cmake_prefix_path.ps1'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/hook/cmake_prefix_path.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/hook/cmake_prefix_path.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/lib/pkgconfig/b3rb_gz_resource.pc'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/lib/python3.10/site-packages'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.sh'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.bash'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.zsh'
+[0.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/colcon-core/packages/b3rb_gz_resource)
+[0.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cerebri_bringup)
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup' for CMake module files
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup' for CMake config files
+[0.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('cerebri_bringup', 'cmake_prefix_path')
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/hook/cmake_prefix_path.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/hook/cmake_prefix_path.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/hook/cmake_prefix_path.sh'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/bin'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/lib/pkgconfig/cerebri_bringup.pc'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/lib/python3.10/site-packages'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/bin'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.sh'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.bash'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.zsh'
+[0.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/cerebri_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/cerebri_bringup
+[0.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/colcon-core/packages/cerebri_bringup)
+[0.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_tinyframe)
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe' for CMake module files
+[0.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_tinyframe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_tinyframe
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe' for CMake config files
+[0.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_tinyframe', 'cmake_prefix_path')
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/hook/cmake_prefix_path.ps1'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/hook/cmake_prefix_path.dsv'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/hook/cmake_prefix_path.sh'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/bin'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib/pkgconfig/synapse_tinyframe.pc'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib/python3.10/site-packages'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/bin'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.ps1'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.dsv'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.sh'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.bash'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.zsh'
+[0.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/colcon-core/packages/synapse_tinyframe)
+[0.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_nav2)
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2' for CMake module files
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2' for CMake config files
+[0.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_nav2', 'cmake_prefix_path')
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/hook/cmake_prefix_path.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/hook/cmake_prefix_path.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/hook/cmake_prefix_path.sh'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/bin'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/lib/pkgconfig/b3rb_nav2.pc'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/lib/python3.10/site-packages'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/bin'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.ps1'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.sh'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.bash'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/b3rb_nav2/package.zsh'
+[0.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_nav2/share/colcon-core/packages/b3rb_nav2)
+[0.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_gz_bringup)
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup' for CMake module files
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup' for CMake config files
+[0.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_gz_bringup', 'cmake_prefix_path')
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/hook/cmake_prefix_path.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/hook/cmake_prefix_path.dsv'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/hook/cmake_prefix_path.sh'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/bin'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/lib/pkgconfig/b3rb_gz_bringup.pc'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/lib/python3.10/site-packages'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/bin'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.ps1'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.dsv'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.sh'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.bash'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/b3rb_gz_bringup/package.zsh'
+[0.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup/share/colcon-core/packages/b3rb_gz_bringup)
+[0.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_rviz)
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz' for CMake module files
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz' for CMake config files
+[0.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_rviz', 'cmake_prefix_path')
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/hook/cmake_prefix_path.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/hook/cmake_prefix_path.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/hook/cmake_prefix_path.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/bin'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/lib/pkgconfig/b3rb_rviz.pc'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/lib/python3.10/site-packages'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/bin'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.dsv'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.bash'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.zsh'
+[0.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/colcon-core/packages/b3rb_rviz)
+[0.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_description)
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description' for CMake module files
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description' for CMake config files
+[0.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_description', 'cmake_prefix_path')
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/hook/cmake_prefix_path.ps1'
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/hook/cmake_prefix_path.dsv'
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/hook/cmake_prefix_path.sh'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description/bin'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description/lib/pkgconfig/b3rb_description.pc'
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description/lib/python3.10/site-packages'
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_description/bin'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.dsv'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.sh'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.bash'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/b3rb_description/package.zsh'
+[0.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_description/share/colcon-core/packages/b3rb_description)
+[0.674s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/b3rb_desktop/b3rb_desktop' with build type 'ament_cmake'
+[0.674s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/b3rb_desktop/b3rb_desktop'
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_gz_resource)
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource' for CMake module files
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource' for CMake config files
+[0.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_gz_resource', 'cmake_prefix_path')
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/hook/cmake_prefix_path.ps1'
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/hook/cmake_prefix_path.dsv'
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/hook/cmake_prefix_path.sh'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/bin'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/lib/pkgconfig/b3rb_gz_resource.pc'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/lib/python3.10/site-packages'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/bin'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.ps1'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.sh'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.bash'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/b3rb_gz_resource/package.zsh'
+[0.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource/share/colcon-core/packages/b3rb_gz_resource)
+[0.684s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_simulator' with build type 'ament_cmake'
+[0.685s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/b3rb_simulator/b3rb_simulator'
+[0.685s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cerebri_bringup)
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup' for CMake module files
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup' for CMake config files
+[0.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('cerebri_bringup', 'cmake_prefix_path')
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/hook/cmake_prefix_path.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/hook/cmake_prefix_path.dsv'
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/hook/cmake_prefix_path.sh'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/bin'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/lib/pkgconfig/cerebri_bringup.pc'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/lib/python3.10/site-packages'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/bin'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.sh'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.bash'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/cerebri_bringup/package.zsh'
+[0.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/cerebri_bringup/share/colcon-core/packages/cerebri_bringup)
+[0.695s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dream_world)
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world' for CMake module files
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/dream_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/dream_world
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world' for CMake config files
+[0.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('dream_world', 'cmake_prefix_path')
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/hook/cmake_prefix_path.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/hook/cmake_prefix_path.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/hook/cmake_prefix_path.sh'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/lib'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/bin'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/lib/pkgconfig/dream_world.pc'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/lib/python3.10/site-packages'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/bin'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.sh'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.bash'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.zsh'
+[0.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/dream_world/share/colcon-core/packages/dream_world)
+[0.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_tinyframe)
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe' for CMake module files
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe' for CMake config files
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_tinyframe', 'cmake_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/hook/cmake_prefix_path.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/hook/cmake_prefix_path.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/hook/cmake_prefix_path.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/bin'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib/pkgconfig/synapse_tinyframe.pc'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib/python3.10/site-packages'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/bin'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.dsv'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.sh'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.bash'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/synapse_tinyframe/package.zsh'
+[0.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/share/colcon-core/packages/synapse_tinyframe)
+[0.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_desktop': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_desktop -- -j12 -l12
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_simulator': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_simulator -- -j12 -l12
+[0.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dream_world)
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world' for CMake module files
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world' for CMake config files
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('dream_world', 'cmake_prefix_path')
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/hook/cmake_prefix_path.ps1'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/hook/cmake_prefix_path.dsv'
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/hook/cmake_prefix_path.sh'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/lib'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/bin'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/lib/pkgconfig/dream_world.pc'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/lib/python3.10/site-packages'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/dream_world/bin'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.sh'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.bash'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/dream_world/share/dream_world/package.zsh'
+[0.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/dream_world/share/colcon-core/packages/dream_world)
+[0.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_simulator' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_simulator -- -j12 -l12
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_desktop' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_desktop -- -j12 -l12
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_simulator': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_simulator
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_desktop': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_desktop
+[0.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_simulator)
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator' for CMake module files
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_simulator' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_simulator
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator' for CMake config files
+[0.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_simulator', 'cmake_prefix_path')
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/hook/cmake_prefix_path.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/hook/cmake_prefix_path.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/hook/cmake_prefix_path.sh'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/bin'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/lib/pkgconfig/b3rb_simulator.pc'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/lib/python3.10/site-packages'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/bin'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.ps1'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.sh'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.bash'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.zsh'
+[0.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/colcon-core/packages/b3rb_simulator)
+[0.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_desktop)
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop' for CMake module files
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_desktop' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_desktop
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop' for CMake config files
+[0.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_desktop', 'cmake_prefix_path')
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/hook/cmake_prefix_path.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/hook/cmake_prefix_path.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/hook/cmake_prefix_path.sh'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/bin'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/lib/pkgconfig/b3rb_desktop.pc'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/lib/python3.10/site-packages'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/bin'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.sh'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.bash'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.zsh'
+[0.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/colcon-core/packages/b3rb_desktop)
+[0.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_simulator)
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator' for CMake module files
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator' for CMake config files
+[0.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_simulator', 'cmake_prefix_path')
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/hook/cmake_prefix_path.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/hook/cmake_prefix_path.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/hook/cmake_prefix_path.sh'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/bin'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/lib/pkgconfig/b3rb_simulator.pc'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/lib/python3.10/site-packages'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/bin'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.bash'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/b3rb_simulator/package.zsh'
+[0.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_simulator/share/colcon-core/packages/b3rb_simulator)
+[0.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b3rb_desktop)
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop' for CMake module files
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop' for CMake config files
+[0.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('b3rb_desktop', 'cmake_prefix_path')
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/hook/cmake_prefix_path.ps1'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/hook/cmake_prefix_path.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/hook/cmake_prefix_path.sh'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/bin'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/lib/pkgconfig/b3rb_desktop.pc'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/lib/python3.10/site-packages'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/bin'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.ps1'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.sh'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.bash'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/b3rb_desktop/package.zsh'
+[0.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/b3rb_desktop/share/colcon-core/packages/b3rb_desktop)
+[1.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_protobuf -- -j12 -l12
+[1.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_protobuf
+[1.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_protobuf)
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf' for CMake module files
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_protobuf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_protobuf
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf' for CMake config files
+[1.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_protobuf', 'cmake_prefix_path')
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/hook/cmake_prefix_path.ps1'
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/hook/cmake_prefix_path.dsv'
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/hook/cmake_prefix_path.sh'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/bin'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib/pkgconfig/synapse_protobuf.pc'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib/python3.10/site-packages'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/bin'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.ps1'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.dsv'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.sh'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.bash'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.zsh'
+[1.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/colcon-core/packages/synapse_protobuf)
+[1.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_protobuf)
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf' for CMake module files
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf' for CMake config files
+[1.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_protobuf', 'cmake_prefix_path')
+[1.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/hook/cmake_prefix_path.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/hook/cmake_prefix_path.dsv'
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/hook/cmake_prefix_path.sh'
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib'
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/bin'
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib/pkgconfig/synapse_protobuf.pc'
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib/python3.10/site-packages'
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/bin'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.ps1'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.dsv'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.sh'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.bash'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/synapse_protobuf/package.zsh'
+[1.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/share/colcon-core/packages/synapse_protobuf)
+[1.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/synapse_gz' with build type 'ament_cmake'
+[1.869s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/synapse_gz'
+[1.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_gz -- -j12 -l12
+[4.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_msgs -- -j12 -l12
+[4.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_msgs
+[4.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_msgs)
+[4.968s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs' for CMake module files
+[4.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_msgs
+[4.968s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs' for CMake config files
+[4.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_msgs', 'cmake_prefix_path')
+[4.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/cmake_prefix_path.ps1'
+[4.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/cmake_prefix_path.dsv'
+[4.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/cmake_prefix_path.sh'
+[4.970s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib'
+[4.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_msgs', 'ld_library_path_lib')
+[4.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/ld_library_path_lib.ps1'
+[4.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/ld_library_path_lib.dsv'
+[4.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/ld_library_path_lib.sh'
+[4.971s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/bin'
+[4.971s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib/pkgconfig/synapse_msgs.pc'
+[4.971s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib/python3.10/site-packages'
+[4.972s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/bin'
+[4.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.ps1'
+[4.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.dsv'
+[4.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.sh'
+[4.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.bash'
+[4.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.zsh'
+[4.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/colcon-core/packages/synapse_msgs)
+[5.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_msgs)
+[5.093s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs' for CMake module files
+[5.094s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs' for CMake config files
+[5.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_msgs', 'cmake_prefix_path')
+[5.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/cmake_prefix_path.ps1'
+[5.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/cmake_prefix_path.dsv'
+[5.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/cmake_prefix_path.sh'
+[5.097s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib'
+[5.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_msgs', 'ld_library_path_lib')
+[5.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/ld_library_path_lib.ps1'
+[5.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/ld_library_path_lib.dsv'
+[5.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/hook/ld_library_path_lib.sh'
+[5.098s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/bin'
+[5.098s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib/pkgconfig/synapse_msgs.pc'
+[5.099s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib/python3.10/site-packages'
+[5.099s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/bin'
+[5.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.ps1'
+[5.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.dsv'
+[5.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.sh'
+[5.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.bash'
+[5.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/synapse_msgs/package.zsh'
+[5.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_msgs/share/colcon-core/packages/synapse_msgs)
+[5.102s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/corti' with build type 'ament_cmake'
+[5.102s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/corti'
+[5.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.109s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/nxp_cup_vision' with build type 'ament_python'
+[5.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('nxp_cup_vision', 'ament_prefix_path')
+[5.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/hook/ament_prefix_path.ps1'
+[5.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/hook/ament_prefix_path.dsv'
+[5.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/hook/ament_prefix_path.sh'
+[5.111s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.111s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.118s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shreedhar/cognipilot/cranium/src/synapse_ros' with build type 'ament_cmake'
+[5.118s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shreedhar/cognipilot/cranium/src/synapse_ros'
+[5.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.118s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/corti': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/corti -- -j12 -l12
+[5.337s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shreedhar/cognipilot/cranium/src/nxp_cup_vision'
+[5.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_ros': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_ros -- -j12 -l12
+[5.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/nxp_cup_vision': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/shreedhar/cognipilot/cranium/build/nxp_cup_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/shreedhar/cognipilot/cranium/build/nxp_cup_vision/build --no-deps symlink_data
+[6.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('nxp_cup_vision', 'pythonpath_develop')
+[6.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/build/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath_develop.ps1'
+[6.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/nxp_cup_vision' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/shreedhar/cognipilot/cranium/build/nxp_cup_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/shreedhar/cognipilot/cranium/build/nxp_cup_vision/build --no-deps symlink_data
+[6.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/build/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath_develop.dsv'
+[6.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/build/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath_develop.sh'
+[6.056s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision' for CMake module files
+[6.056s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision' for CMake config files
+[6.057s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/lib'
+[6.057s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/bin'
+[6.057s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/lib/pkgconfig/nxp_cup_vision.pc'
+[6.057s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/lib/python3.10/site-packages'
+[6.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('nxp_cup_vision', 'pythonpath')
+[6.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath.ps1'
+[6.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath.dsv'
+[6.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/hook/pythonpath.sh'
+[6.059s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/bin'
+[6.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nxp_cup_vision)
+[6.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/package.ps1'
+[6.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/package.dsv'
+[6.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/package.sh'
+[6.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/package.bash'
+[6.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/nxp_cup_vision/package.zsh'
+[6.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision/share/colcon-core/packages/nxp_cup_vision)
+[8.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_gz -- -j12 -l12
+[8.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_gz
+[8.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_gz)
+[8.754s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz' for CMake module files
+[8.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_gz' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_gz
+[8.755s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz' for CMake config files
+[8.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_gz', 'cmake_prefix_path')
+[8.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/hook/cmake_prefix_path.ps1'
+[8.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/hook/cmake_prefix_path.dsv'
+[8.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/hook/cmake_prefix_path.sh'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/lib'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/bin'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/lib/pkgconfig/synapse_gz.pc'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/lib/python3.10/site-packages'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/bin'
+[8.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.ps1'
+[8.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.dsv'
+[8.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.sh'
+[8.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.bash'
+[8.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.zsh'
+[8.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/colcon-core/packages/synapse_gz)
+[8.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_gz)
+[8.792s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz' for CMake module files
+[8.792s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz' for CMake config files
+[8.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_gz', 'cmake_prefix_path')
+[8.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/hook/cmake_prefix_path.ps1'
+[8.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/hook/cmake_prefix_path.dsv'
+[8.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/hook/cmake_prefix_path.sh'
+[8.795s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/lib'
+[8.795s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/bin'
+[8.795s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/lib/pkgconfig/synapse_gz.pc'
+[8.795s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/lib/python3.10/site-packages'
+[8.795s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_gz/bin'
+[8.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.ps1'
+[8.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.dsv'
+[8.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.sh'
+[8.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.bash'
+[8.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/synapse_gz/package.zsh'
+[8.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_gz/share/colcon-core/packages/synapse_gz)
+[13.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/corti' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/corti -- -j12 -l12
+[13.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/corti': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/corti
+[13.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(corti)
+[13.788s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti' for CMake module files
+[13.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/corti' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/corti
+[13.789s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti' for CMake config files
+[13.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('corti', 'cmake_prefix_path')
+[13.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/hook/cmake_prefix_path.ps1'
+[13.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/hook/cmake_prefix_path.dsv'
+[13.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/hook/cmake_prefix_path.sh'
+[13.790s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/lib'
+[13.790s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/bin'
+[13.790s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/lib/pkgconfig/corti.pc'
+[13.791s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/lib/python3.10/site-packages'
+[13.791s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/bin'
+[13.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.ps1'
+[13.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.dsv'
+[13.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.sh'
+[13.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.bash'
+[13.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.zsh'
+[13.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/corti/share/colcon-core/packages/corti)
+[13.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(corti)
+[13.827s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti' for CMake module files
+[13.827s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti' for CMake config files
+[13.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('corti', 'cmake_prefix_path')
+[13.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/hook/cmake_prefix_path.ps1'
+[13.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/hook/cmake_prefix_path.dsv'
+[13.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/hook/cmake_prefix_path.sh'
+[13.829s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/lib'
+[13.829s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/bin'
+[13.829s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/lib/pkgconfig/corti.pc'
+[13.829s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/lib/python3.10/site-packages'
+[13.829s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/corti/bin'
+[13.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.ps1'
+[13.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.dsv'
+[13.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.sh'
+[13.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.bash'
+[13.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/corti/share/corti/package.zsh'
+[13.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/corti/share/colcon-core/packages/corti)
+[36.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_ros' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/synapse_ros -- -j12 -l12
+[37.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shreedhar/cognipilot/cranium/build/synapse_ros': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_ros
+[37.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_ros)
+[37.030s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros' for CMake module files
+[37.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shreedhar/cognipilot/cranium/build/synapse_ros' returned '0': CMAKE_PREFIX_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf:/home/shreedhar/cognipilot/cranium/install/synapse_msgs:/home/shreedhar/cognipilot/electrode/install/electrode:/home/shreedhar/cognipilot/cranium/install/synapse_ros:/home/shreedhar/cognipilot/cranium/install/synapse_gz:/home/shreedhar/cognipilot/cranium/install/corti:/home/shreedhar/cognipilot/cranium/install/dream_world:/home/shreedhar/cognipilot/cranium/install/cerebri_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_simulator:/home/shreedhar/cognipilot/cranium/install/b3rb_desktop:/home/shreedhar/cognipilot/cranium/install/b3rb_rviz:/home/shreedhar/cognipilot/cranium/install/b3rb_nav2:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_resource:/home/shreedhar/cognipilot/cranium/install/b3rb_gz_bringup:/home/shreedhar/cognipilot/cranium/install/b3rb_description:/opt/ros/humble LD_LIBRARY_PATH=/home/shreedhar/cognipilot/cranium/install/synapse_msgs/lib:/home/shreedhar/cognipilot/cranium/install/synapse_tinyframe/lib:/home/shreedhar/cognipilot/cranium/install/synapse_protobuf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/synapse_ros
+[37.031s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros' for CMake config files
+[37.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_ros', 'cmake_prefix_path')
+[37.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/hook/cmake_prefix_path.ps1'
+[37.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/hook/cmake_prefix_path.dsv'
+[37.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/hook/cmake_prefix_path.sh'
+[37.032s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/lib'
+[37.032s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/bin'
+[37.032s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/lib/pkgconfig/synapse_ros.pc'
+[37.032s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/lib/python3.10/site-packages'
+[37.033s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/bin'
+[37.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.ps1'
+[37.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.dsv'
+[37.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.sh'
+[37.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.bash'
+[37.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.zsh'
+[37.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/colcon-core/packages/synapse_ros)
+[37.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(synapse_ros)
+[37.061s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros' for CMake module files
+[37.061s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros' for CMake config files
+[37.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('synapse_ros', 'cmake_prefix_path')
+[37.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/hook/cmake_prefix_path.ps1'
+[37.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/hook/cmake_prefix_path.dsv'
+[37.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/hook/cmake_prefix_path.sh'
+[37.063s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/lib'
+[37.063s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/bin'
+[37.063s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/lib/pkgconfig/synapse_ros.pc'
+[37.063s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/lib/python3.10/site-packages'
+[37.063s] Level 1:colcon.colcon_core.environment:checking '/home/shreedhar/cognipilot/cranium/install/synapse_ros/bin'
+[37.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.ps1'
+[37.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.dsv'
+[37.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.sh'
+[37.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.bash'
+[37.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/synapse_ros/package.zsh'
+[37.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shreedhar/cognipilot/cranium/install/synapse_ros/share/colcon-core/packages/synapse_ros)
+[37.065s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.066s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.066s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[37.066s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.071s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.083s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shreedhar/cognipilot/cranium/install/local_setup.ps1'
+[37.084s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shreedhar/cognipilot/cranium/install/_local_setup_util_ps1.py'
+[37.085s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shreedhar/cognipilot/cranium/install/setup.ps1'
+[37.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shreedhar/cognipilot/cranium/install/local_setup.sh'
+[37.087s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shreedhar/cognipilot/cranium/install/_local_setup_util_sh.py'
+[37.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shreedhar/cognipilot/cranium/install/setup.sh'
+[37.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shreedhar/cognipilot/cranium/install/local_setup.bash'
+[37.090s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shreedhar/cognipilot/cranium/install/setup.bash'
+[37.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shreedhar/cognipilot/cranium/install/local_setup.zsh'
+[37.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shreedhar/cognipilot/cranium/install/setup.zsh'

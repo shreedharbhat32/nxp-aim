@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/shreedhar/cognipilot/cranium/build/synapse_tinyframe",
+  "command": "/usr/bin/cc  -I/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe/include -I/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe/include/synapse_tinyframe -Wall -Wextra -Wpedantic -o CMakeFiles/synapse_tinyframe.dir/src/TinyFrame.c.o -c /home/shreedhar/cognipilot/cranium/src/synapse_tinyframe/src/TinyFrame.c",
+  "file": "/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe/src/TinyFrame.c"
+},
+{
+  "directory": "/home/shreedhar/cognipilot/cranium/build/synapse_tinyframe",
+  "command": "/usr/bin/cc  -I/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe/include -I/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe/include/synapse_tinyframe -Wall -Wextra -Wpedantic -o CMakeFiles/synapse_tinyframe.dir/src/utils.c.o -c /home/shreedhar/cognipilot/cranium/src/synapse_tinyframe/src/utils.c",
+  "file": "/home/shreedhar/cognipilot/cranium/src/synapse_tinyframe/src/utils.c"
+}
+]

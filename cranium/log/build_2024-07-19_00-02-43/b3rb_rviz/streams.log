@@ -1,0 +1,35 @@
+[0.032s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/b3rb_desktop/b3rb_rviz -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/b3rb_rviz
+[0.107s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.220s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.228s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.302s] -- Added test 'lint_cmake' to check CMake code style
+[0.302s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.303s] -- Added test 'xmllint' to check XML markup files
+[0.305s] -- Configuring done
+[0.310s] -- Generating done
+[0.311s] -- Build files have been written to: /home/shreedhar/cognipilot/cranium/build/b3rb_rviz
+[0.314s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake /home/shreedhar/cognipilot/cranium/src/b3rb_desktop/b3rb_rviz -DCMAKE_INSTALL_PREFIX=/home/shreedhar/cognipilot/cranium/install/b3rb_rviz
+[0.316s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_rviz -- -j12 -l12
+[0.365s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake --build /home/shreedhar/cognipilot/cranium/build/b3rb_rviz -- -j12 -l12
+[0.402s] Invoking command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_rviz
+[0.411s] -- Install configuration: ""
+[0.412s] -- Execute custom install script
+[0.412s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/rviz/nav2/robot.rviz
+[0.413s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/launch/view_robot.launch.py
+[0.413s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/ament_index/resource_index/package_run_dependencies/b3rb_rviz
+[0.414s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/ament_index/resource_index/parent_prefix_path/b3rb_rviz
+[0.415s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/environment/ament_prefix_path.sh
+[0.415s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/environment/ament_prefix_path.dsv
+[0.415s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/environment/path.sh
+[0.415s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/environment/path.dsv
+[0.415s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/local_setup.bash
+[0.416s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/local_setup.sh
+[0.416s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/local_setup.zsh
+[0.416s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/local_setup.dsv
+[0.416s] -- Symlinking: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.dsv
+[0.429s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/ament_index/resource_index/packages/b3rb_rviz
+[0.429s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/cmake/b3rb_rvizConfig.cmake
+[0.430s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/cmake/b3rb_rvizConfig-version.cmake
+[0.430s] -- Up-to-date symlink: /home/shreedhar/cognipilot/cranium/install/b3rb_rviz/share/b3rb_rviz/package.xml
+[0.431s] Invoked command in '/home/shreedhar/cognipilot/cranium/build/b3rb_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shreedhar/cognipilot/cranium/install/nxp_cup_vision:/opt/ros/humble /usr/bin/cmake --install /home/shreedhar/cognipilot/cranium/build/b3rb_rviz

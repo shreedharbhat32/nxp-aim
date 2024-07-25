@@ -1,0 +1,1 @@
+/home/shreedhar/cognipilot/cranium/build/b3rb_rviz/ament_cmake_core/b3rb_rvizConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/shreedhar/cognipilot/cranium/build/synapse_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

@@ -1,0 +1,1 @@
+/home/shreedhar/cognipilot/cranium/build/synapse_protobuf/proto/vector3.pb.h
